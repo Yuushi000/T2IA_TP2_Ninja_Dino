@@ -7,7 +7,7 @@ Mini-jeu 2D de type Run & Gun inspiré de Metal Slug, réalisé sous Unity.
 ## Fonctionnalités réalisées
 
 ### Personnage principal
-- Déplacement horizontal (Q/D) et saut (W/Espace) au clavier
+- Déplacement horizontal (Q/D) et saut (Z/Espace) au clavier
 - Le personnage regarde la direction où il avance
 - Animations Idle, Run, Jump gérées via un Animator Controller avec transitions basées sur des paramètres (Speed, IsGrounded, VerticalVelocity)
 
