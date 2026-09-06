@@ -1,0 +1,59 @@
+[33mcommit 5feb8f7a7c625aaae2dff762b39312d50337216e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Yuushi000 <151174948+Yuushi000@users.noreply.github.com>
+Date:   Tue Sep 1 18:36:50 2026 +0200
+
+    Initial commit
+
+ .gitignore                                         |  106 [32m++[m
+ .vscode/extensions.json                            |    5 [32m+[m
+ .vscode/launch.json                                |   10 [32m+[m
+ .vscode/settings.json                              |   71 [32m++[m
+ Assets/Scenes.meta                                 |    8 [32m+[m
+ Assets/Scenes/SampleScene.unity                    |  352 [32m+++++++[m
+ Assets/Scenes/SampleScene.unity.meta               |    7 [32m+[m
+ Assets/Settings.meta                               |    8 [32m+[m
+ Assets/Settings/DefaultVolumeProfile.asset         |  795 [32m+++++++++++++++[m
+ Assets/Settings/DefaultVolumeProfile.asset.meta    |    8 [32m+[m
+ Assets/Settings/InputSystem_Actions.inputactions   | 1057 [32m++++++++++++++++++++[m
+ .../Settings/InputSystem_Actions.inputactions.meta |   14 [32m+[m
+ Assets/Settings/Lit2DSceneTemplate.scenetemplate   |   71 [32m++[m
+ .../Settings/Lit2DSceneTemplate.scenetemplate.meta |    8 [32m+[m
+ Assets/Settings/Renderer2D.asset                   |   69 [32m++[m
+ Assets/Settings/Renderer2D.asset.meta              |    8 [32m+[m
+ Assets/Settings/Scenes.meta                        |    8 [32m+[m
+ Assets/Settings/Scenes/URP2DSceneTemplate.unity    |  350 [32m+++++++[m
+ .../Settings/Scenes/URP2DSceneTemplate.unity.meta  |    7 [32m+[m
+ Assets/Settings/UniversalRP.asset                  |  143 [32m+++[m
+ Assets/Settings/UniversalRP.asset.meta             |    8 [32m+[m
+ .../UniversalRenderPipelineGlobalSettings.asset    |  442 [32m++++++++[m
+ ...niversalRenderPipelineGlobalSettings.asset.meta |    8 [32m+[m
+ Packages/manifest.json                             |   56 [32m++[m
+ Packages/packages-lock.json                        |  560 [32m+++++++++++[m
+ ProjectSettings/AudioManager.asset                 |   19 [32m+[m
+ ProjectSettings/ClusterInputManager.asset          |    6 [32m+[m
+ ProjectSettings/DynamicsManager.asset              |   36 [32m+[m
+ ProjectSettings/EditorBuildSettings.asset          |   12 [32m+[m
+ ProjectSettings/EditorSettings.asset               |   53 [32m+[m
+ ProjectSettings/GraphicsSettings.asset             |   80 [32m++[m
+ ProjectSettings/InputManager.asset                 |  487 [32m+++++++++[m
+ ProjectSettings/MemorySettings.asset               |   35 [32m+[m
+ ProjectSettings/MultiplayerManager.asset           |    7 [32m+[m
+ ProjectSettings/NavMeshAreas.asset                 |   91 [32m++[m
+ ProjectSettings/NetworkManager.asset               |    8 [32m+[m
+ ProjectSettings/PackageManagerSettings.asset       |   44 [32m+[m
+ ProjectSettings/Physics2DSettings.asset            |   56 [32m++[m
+ ProjectSettings/PhysicsCoreProjectSettings2D.asset |    6 [32m+[m
+ ProjectSettings/PresetManager.asset                |    7 [32m+[m
+ ProjectSettings/ProjectAuditorSettings.asset       |   36 [32m+[m
+ ProjectSettings/ProjectSettings.asset              |  705 [32m+++++++++++++[m
+ ProjectSettings/ProjectVersion.txt                 |    2 [32m+[m
+ ProjectSettings/QualitySettings.asset              |  336 [32m+++++++[m
+ ProjectSettings/ShaderGraphSettings.asset          |   19 [32m+[m
+ ProjectSettings/TagManager.asset                   |   43 [32m+[m
+ ProjectSettings/TimeManager.asset                  |    9 [32m+[m
+ ProjectSettings/URPProjectSettings.asset           |   16 [32m+[m
+ ProjectSettings/UnityConnectSettings.asset         |   40 [32m+[m
+ ProjectSettings/VFXManager.asset                   |   12 [32m+[m
+ ProjectSettings/VersionControlSettings.asset       |    7 [32m+[m
+ ProjectSettings/XRSettings.asset                   |   10 [32m+[m
+ 52 files changed, 6361 insertions(+)
