@@ -8,8 +8,8 @@ public class MeleeEnemy : MonoBehaviour
     public float attackCooldown = 1f;
 
     [Header("Zones (Trigger)")]
-    public CircleCollider2D detectionCollider;
-    public CircleCollider2D attackCollider;
+    public Collider2D detectionCollider;
+    public Collider2D attackCollider;
 
     private Rigidbody2D rb;
     private Transform player;
